@@ -25,8 +25,55 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0A174E;
 }
+	
+	.dice {
+		text-align: center;
+		display: inline-block;
+		margin: 10px;
+	}
+
+	body {
+		background-color: #F5D042;
+		margin: 0;
+	}
+
+	h1 {
+		margin: 30px;
+		font-family: "Lobster", cursive;
+		text-shadow: 5px 0 #232931;
+		font-size: 4.5rem;
+		color: #0A174E;
+		text-align: center;
+	}
+
+	p {
+		font-size: 2rem;
+		color: #0A174E;
+		font-family: "Indie Flower", cursive;
+	}
+
+
+	.button {
+		background: #2e53f8;
+		font-family: "Indie Flower", cursive;
+		border-radius: 7px;
+		color: #ffff;
+		font-size: 30px;
+		padding: 16px 25px 16px 25px;
+		text-decoration: none;
+	}
+
+	.button:hover {
+		background: #61a3f9;
+		text-decoration: none;
+	}
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
